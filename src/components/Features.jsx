@@ -8,7 +8,7 @@ const Features = () => {
     <section className=' w-full relative bg-tertiary'>
       <div className={`${styles.paddingX} max-w-7xl mx-auto`}>
         <div className=" w-full flex justify-between items-center   ">
-          <h1 className=' font-extrabold text-black text-[40px]'>Featured Projects</h1>
+          <h1 className=' font-extrabold text-black text-[32px]'>Featured Projects</h1>
           <ul className="list-none md:block lg:flex justify-end sm:flex flex-row gap-5">
             
             {featLinks.map((link) => (
