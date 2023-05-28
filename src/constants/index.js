@@ -33,15 +33,15 @@ export const navLinks = [
   const services = [
     {
       title: "Architecture",
-      icon: apartment2,
+      image: apartment2,
     },
     {
       title: "Design",
-      icon: mansion,
+      image: mansion,
     },
     {
       title: "Plan",
-      icon: parking,
+      image: parking,
     },
     // {
     //   title: "Project Mangement",
@@ -74,6 +74,7 @@ export const navLinks = [
 
   const process = [
     {
+      // icon: ,
       title: "step 1",
       description: "Evaluation and signing of the contract"
     },
