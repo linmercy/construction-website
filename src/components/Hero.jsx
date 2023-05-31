@@ -13,7 +13,7 @@ const Hero = () => {
           </h1>
 
           <p className={`${styles.heroSubText} mt-10`}>We provide the best architecturial designs, construction and 
-            <br className='max-xs:block hidden ' /> building maintenance services for you 
+            <br className='max-xs:hidden sm:hidden xl:block ' /> building maintenance services for you 
           </p>
 
           <div className=' flex  items-start mt-20 max-xs:mt-10 xs:mt-10'>

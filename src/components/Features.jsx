@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
 import { styles } from '../styles'
 import { featLinks, projects } from '../constants'
+import { IoIosArrowRoundForward, IoMdArrowDropleftCircle, IoMdArrowRoundForward } from 'react-icons/io'
 
 const Features = () => {
   const [active, setActive] = useState("")
   return (
-    <section className=' w-full relative bg-tertiary'>
+    <section className={`${styles.padding} w-full relative bg-tertiary`}>
       <div className={`${styles.paddingX} max-w-7xl mx-auto`}>
         <div className=" w-full flex justify-between items-center   ">
           <h1 className=' font-extrabold text-black text-[32px]'>Featured Projects</h1>
@@ -51,9 +52,10 @@ const Features = () => {
           })}
         </div>
 
-        <div className="">
-          <a href=""  className='sm:text-[18px] text-[14px] text-white capitalise tracking-wider'>
+        <div className=" flex justify-end items-end h-[100%] py-3 px-3">
+          <a href=""  className=' flex justify-between gap-5 sm:text-[18px] text-[14px] text-primary capitalise tracking-wider'>
             Explore All Projects
+            <IoMdArrowRoundForward className=' mx-auto my-auto py-auto bg-primary text-tertiary rounded-2xl' />
           </a>
             
           

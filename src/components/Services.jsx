@@ -5,7 +5,7 @@ import { apartment2, mansion, parking } from '../assets'
 
 const Services = () => {
   return (
-    <section className={`${styles.paddingX} bg-primary relative`}>
+    <section className={`${styles.padding} bg-primary relative`}>
       <div className=" w-full h-[100%] mx-auto max-w-7xl">
         <div className=" items-center justify-center flex">
           <h1 className={`${styles.sectionHeadText}`}>Our Services</h1>
@@ -30,11 +30,11 @@ const Services = () => {
         </div>
         
         <div className={`${styles.sectionHeadText}`}>
-          <h1 className={`${styles.paddingX} flex justify-center items-center text-yellow-300 capitalize`}>
+          <h1 className={`${styles.paddingX} flex justify-center items-center text-tertiary capitalize`}>
             the Process
           </h1>
         </div>
-        <div className={`${styles.paddingX} flex max-xs:block items-center justify-between`}>
+        <div className={`${styles.padding} flex max-xs:block items-center justify-between`}>
           {process.map(({title, description, icon}) => {
             return (
               <div className="">
