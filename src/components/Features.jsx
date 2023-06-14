@@ -1,14 +1,39 @@
 import React, {useState} from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css';
 import { styles } from '../styles'
 import { featLinks, projects } from '../constants'
-import { IoIosArrowRoundForward, IoMdArrowDropleftCircle, IoMdArrowRoundForward } from 'react-icons/io'
+import { IoMdArrowRoundForward } from 'react-icons/io'
 
 const Features = () => {
   const [active, setActive] = useState("")
   return (
-    <section className={`${styles.padding} w-full relative bg-tertiary`}>
+    <section className={`${styles.paddingY} w-full relative bg-tertiary`}>
       <div className={`${styles.paddingX} max-w-7xl mx-auto`}>
+      <div className=" block text-center items-center justify-center max-md:flex">
+          <ul className=' max-xs:block flex justify-between'>
+            <li>
+              <p>Evaluation and signing <br /> of the contract</p>
+              <h6>Step 1</h6>
+            </li>
+            <li>
+              <p>Preparation of the <br /> work plan</p>
+              <h6>Step 2</h6>
+            </li>
+            <li>
+              <p>Implementation of <br /> quality works</p>
+              <h6>Step 3</h6>
+            </li>
+            <li>
+              <p>Delivering the project <br /> to the client</p>
+              <h6>Step 4</h6>
+
+            </li>
+          </ul>
+        </div>
+        
         <div className=" w-full flex justify-between items-center   ">
+
           <h1 className=' font-extrabold text-black text-[32px]'>Featured Projects</h1>
           <ul className="list-none md:block lg:flex justify-end sm:flex flex-row gap-5">
             
@@ -26,11 +51,13 @@ const Features = () => {
 
         </div>
 
-        <div className="w-full flex justify-between items-center gap-5 rounded-md max-xs:block \">
+        
+
+        <div className="w-full flex justify-between items-center gap-5 rounded-md max-xs:block ">
           {projects.map(({image, title, description})=>{
             return (
               <div className='block'>
-                <div className=" flex w-[100%] h-[100%] object-contain">
+                <div className=" flex w-[100%] h-[100%]">
                   <img src={image} alt={title} className=' rounded-lg' />
                 </div>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { styles } from '../styles'
-import { services, process } from '../constants'
-import { apartment2, mansion, parking } from '../assets'
+// import { services, process } from '../constants'
+// import { apartment2, mansion } from '../assets'
 
 const Services = () => {
   return (

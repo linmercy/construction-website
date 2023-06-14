@@ -1,10 +1,11 @@
 import { 
-    parking,
     mansion,
     apartment1,
     house,
     apartment2,
     apartment3,
+    seaHouse,
+    mirror
 } from "../assets";
 
 export const navLinks = [
@@ -30,25 +31,6 @@ export const navLinks = [
     },
   ];
 
-  const services = [
-    {
-      title: "Architecture",
-      image: apartment2,
-    },
-    {
-      title: "Design",
-      image: mansion,
-    },
-    {
-      title: "Plan",
-      image: parking,
-    },
-    // {
-    //   title: "Project Mangement",
-    //   icon: creator,
-    // },
-  ];
-
   const projects = [
     {
       image: apartment1,  
@@ -56,20 +38,35 @@ export const navLinks = [
       description: "",
     },
     {
-        image: apartment2,  
-        title:  "Jupiter",
-        description: "",
+      image: apartment2,  
+      title:  "Jupiter",
+      description: "",
     },
     {
-        image: house,  
-        title:  "Mercury",
-        description: "",
+      image: house,  
+      title:  "Mercury",
+      description: "",
     },
-    // {
-    //     image: house,  
-    //     title:  "Venus",
-    //     description: "",
-    // },
+    {
+      image: apartment3,  
+      title:  "Venus",
+      description: "",
+    },
+    {
+      image: seaHouse,  
+      title:  "Mars",
+      description: "",
+    },
+    {
+      image: mirror,  
+      title:  "Haven",
+      description: "",
+    },
+    {
+      image: mansion,  
+      title:  "Suites",
+      description: "",
+    },
   ];
 
   const process = [
@@ -131,4 +128,4 @@ export const navLinks = [
     },
   ]
 
-  export { services, projects, process, featLinks, featItems}
+  export {  projects, process, featLinks, featItems}

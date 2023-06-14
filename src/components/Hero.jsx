@@ -4,7 +4,7 @@ import { GrFormNextLink } from "react-icons/gr"
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto img-gradient max-xl:max-h-min`}>
+    <section className={`relative w-full h-screen mx-auto img-gradient max-xl:max-h-min`} id='1'>
       <div className={`absolute inset-0 top-[120px] max-xs:top-[50px] max-lg:top-[80px] max-xl:top-[60px] 
         max-w-7xl mx-auto ${styles.paddingX} grid items-start gap-5 `}>
         <div className=''>

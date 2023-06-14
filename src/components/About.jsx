@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className="relative w-full  h-[100%] mx-auto bg-primary">
       <div className={`${styles.paddingX} mx-auto max-w-7xl pb-10`}>
-        <div className="flex max-xs:block justify-between w-full">
+        <div className="flex max-xs:block gap-6 justify-between w-full">
           <div className='flex gap-10 py-10 max-xs:block max-xs:ml-20 max-xs:px-8 max-xs:mx-8 max-md:block max-lg:block'>
             <div className="flex gap-1">
               <p className={`${styles.sectionHeadText} text-tertiary`}>25<small>+</small></p>
@@ -47,8 +47,8 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex gap-10 max-xs:mt-5  max-xs:block max-md:block max-lg:block">
-          <img src={apartment1} alt="apartment" className='w-[500px] rounded-lg sm:mx-auto' />
+        <div className="flex gap-10 max-xs:mt-5 max-xs:block max-sm:block max-lg:block">
+          <img src={apartment1} alt="apartment" className='w-[500px] h-[450px] rounded-lg sm:mx-auto'/>
           {/* <video src={video} muted autoPlay loop type='video/mp4' className=' w-[500px] rounded-lg bg-cover '></video> */}
 
           <div className="sm:mx-auto">
@@ -64,8 +64,10 @@ const About = () => {
               meets or exceeds our client's expectations. 
               
             </p>
-            <IoIosQuote className=' text-[25px] mt-2 text-secondary' />
-            <p className=' text-secondary'>John Doe- Founder</p>
+            <div className="5 justify-center items-center">
+              <IoIosQuote className=' text-[25px] mt-2 text-secondary' />
+              <p className=' text-secondary'>John Doe- Founder</p>
+            </div>
           </div>
         </div>
         
