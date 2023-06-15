@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useRef } from 'react'
 import { IoMdArrowDropupCircle } from 'react-icons/io'
 import { styles } from '../styles'
+import { mirror } from '../assets'
 
 
 const Contact = () => {
@@ -24,8 +25,8 @@ const Contact = () => {
     })
   }
   return (
-    <section className={`${styles.padding}  w-full mx-auto max-w-7xl relative`}>
-      <div className="">
+    <section className={`${styles.padding}  w-full  relative`} >
+      <div className="mx-auto max-w-7xl">
         <div className="">
           <div className="">
             <p className="text-2xl capitalize flex justify-center">

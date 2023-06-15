@@ -56,8 +56,8 @@ const Features = () => {
         <div className="w-full flex justify-between items-center gap-5 rounded-md max-xs:block ">
           {projects.map(({image, title, description})=>{
             return (
-              <div className='block'>
-                <div className=" flex w-[100%] h-[100%]">
+              <div className='block overflow-hidden'>
+                <div className=" flex w-[400px] h-[500px]">
                   <img src={image} alt={title} className=' rounded-lg' />
                 </div>
 
