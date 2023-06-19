@@ -8,7 +8,7 @@ const Footer = () => {
     <section className='bg-primary w-full relative'>
       <div className={`${styles.padding}   mx-auto max-w-7xl`}>
         <div className="flex justify-between">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className='w-[50%] h-[30%]' />
           <div className="flex flex-inline">
             <label htmlFor="email">
               Subscribe to Our Newsleter:
