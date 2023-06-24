@@ -32,9 +32,7 @@ const Navbar = () => {
                   {link.title}
                 </a>
 
-              </li>
-
-              
+              </li> 
             ))}
           </ul>
 

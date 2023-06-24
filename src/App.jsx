@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import { About, Contact, Features, Footer, Hero, Navbar, Testimonials, Services } from './components'
+import { About, Contact, Features, Footer, Hero, Navbar, Testimonials } from './components'
 
 
 const App = () => {
@@ -13,7 +13,6 @@ const App = () => {
         </div>
           <About /> 
           <Features />
-          {/* <Services />  */}
           <Testimonials /> 
           <Contact /> 
           <Footer />

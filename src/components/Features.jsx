@@ -8,7 +8,7 @@ import { IoMdArrowRoundForward } from 'react-icons/io'
 const Features = () => {
   const [active, setActive] = useState("")
   return (
-    <section className={`${styles.paddingY} w-full relative bg-tertiary`}>
+    <section className={`${styles.paddingY} w-full relative bg-tertiary`} id='3'>
       <div className={`${styles.paddingX} max-w-7xl mx-auto`}>
       <div className=" block text-center items-center justify-center max-md:flex">
           <ul className=' max-xs:block flex justify-between'>
@@ -56,9 +56,9 @@ const Features = () => {
         <div className="w-full flex justify-between items-center gap-5 rounded-md max-xs:block ">
           {projects.map(({image, title, description})=>{
             return (
-              <div className='block overflow-hidden'>
-                <div className=" flex w-[400px] h-[500px]">
-                  <img src={image} alt={title} className=' rounded-lg' />
+              <div className='block overflow-y-auto w-full'>
+                <div className=" flex">
+                  <img src={image} alt={title} className=' object-fill w-[300px] h-[400px] rounded-lg' />
                 </div>
 
                 <div className=" sm:text-[18px] text-[14px] text-white capitalise tracking-wider">

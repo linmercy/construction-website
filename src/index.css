@@ -38,6 +38,11 @@
   linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
+.image-gradient{
+  background: linear-gradient(180deg, #000000 11.13%, rgba(0, 0, 0, 0) 100%),
+  linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
 .footer-gradient{
   background: linear-gradient(180deg, #191A19 0%, rgba(0, 0, 0, 0) 152.79%);
 }
@@ -63,7 +68,7 @@
   background: #f12711; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #f12711,
+    #f37600,
     #f5af19
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(

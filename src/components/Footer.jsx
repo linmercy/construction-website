@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section className='bg-primary w-full relative'>
       <div className={`${styles.padding}   mx-auto max-w-7xl`}>
-        <div className="flex justify-between">
+        <div className="flex justify-between max-md:block">
           <img src={logo} alt="logo" className='w-15 h-12 object-contain' />
           <div className="flex flex-inline">
             <label htmlFor="email">
@@ -24,8 +24,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-inline font-light justify-between gap-5 mt-10">
-          <div className=" w-[40%]">
+        <div className="flex flex-inline font-light justify-between gap-5 mt-10 max-md:block">
+          <div className=" w-[40%] max-md:mt-5">
             <h1 className=' text-lg font-semibold mb-5'>
               About Us
             </h1>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="">
+          <div className="max-md:mt-5">
             <h1 className=' text-lg font-semibold mb-5'>
               Office
             </h1>
@@ -55,7 +55,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="">
+          <div className="max-md:mt-5">
             <h1 className=' text-lg font-semibold mb-5'>
               Contact
             </h1>
@@ -66,7 +66,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="">
+          <div className="max-md:mt-5">
             <h1 className=' text-lg font-semibold mb-5'>
               Link
             </h1>

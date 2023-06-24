@@ -24,45 +24,45 @@ const Testimonials = () => {
         >
           <SwiperSlide>
             
-            <div className={`${styles.paddingX} block items-center text-center`}>
-              <p className=''>
-                I am very satisfied with the services. their team is very proffessional and efficient in completing
-                our project on time and at a very affordable cost. the quality of their work is very good and i highly
+            <div className={`${styles.paddingX} block lg:mx-28 items-center text-center`}>
+              <p className=' font-medium'>
+                I am very satisfied with the services. Their team was very proffessional and efficient in completing
+                our project on time and at a very affordable cost. The quality of their work is very good and I highly
                 recommend this company for any construction projects. 
               </p>
-              <p className=' mt-2'>Tom Lee</p>
-              <p className=' text-sm'>CEO, Lee Foundations</p>
-              <div className=' flex relative justify-center'>
+              <p className=' mt-2 font-medium'>Tom Leexmark</p>
+              <p className=' font-thin text-xs'>CEO, Lee Foundations</p>
+              <div className=' flex relative justify-center mt-5'>
                 <img src={lee} alt="lee" className=' w-[50px] h-[50px] rounded-full outline-tertiary  outline outline-2' />
               </div>
             </div>
           
           </SwiperSlide>
           <SwiperSlide>
-            <div className={`${styles.paddingX} block items-center text-center`}>
-              <p className=''>
-                I am very satisfied with the services. their team is very proffessional and efficient in completing
-                our project on time and at a very affordable cost. the quality of their work is very good and i highly
+            <div className={`${styles.paddingX} block lg:mx-28 items-center text-center`}>
+              <p className=' font-medium'>
+                I am very satisfied with the services. Their team was very proffessional and efficient in completing
+                our project on time and at a very affordable cost. The quality of their work is very good and I highly
                 recommend this company for any construction projects. 
               </p>
-              <p className=' mt-2'>Tom Lee</p>
-              <p className=' text-sm'>CEO, Lee Foundations</p>
-              <div className=' flex relative justify-center'>
+              <p className=' mt-2 font-medium'>Tom Leexmark</p>
+              <p className=' font-thin text-xs'>CEO, Lee Foundations</p>
+              <div className=' flex relative justify-center mt-5'>
                 <img src={wang} alt="lee" className=' w-[50px] h-[50px] rounded-full outline-tertiary  outline outline-2' />
               </div>
             </div>
             
           </SwiperSlide>
           <SwiperSlide>
-            <div className={`${styles.paddingX} block items-center text-center mx-auto`}>
-              <p className=''>
-                I am very satisfied with the services. their team is very proffessional and efficient in completing
-                our project on time and at a very affordable cost. the quality of their work is very good and i highly
+            <div className={`${styles.paddingX} block lg:mx-28 items-center text-center`}>
+              <p className=' font-medium'>
+                I am very satisfied with the services. Their team was very proffessional and efficient in completing
+                our project on time and at a very affordable cost. The quality of their work is very good and I highly
                 recommend this company for any construction projects. 
               </p>
-              <p className=' mt-2'>Tom Lee</p>
-              <p className=' text-sm'>CEO, Lee Foundations</p>
-              <div className=' flex relative justify-center'>
+              <p className=' mt-2 font-medium'>Tom Leexmark</p>
+              <p className=' font-thin text-xs'>CEO, Lee Foundations</p>
+              <div className=' flex relative justify-center mt-5'>
                 <img src={janey} alt="lee" className=' w-[50px] h-[50px] rounded-full outline-tertiary  outline outline-2' />
               </div>
             </div>
