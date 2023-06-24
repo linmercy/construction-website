@@ -9,7 +9,7 @@ export default {
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
-        tertiary: "#f37600",
+        tertiary: "#bbd827",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -22,7 +22,6 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('./src/assets/bg2.webp')",
-        "contact-pattern": "url('./src/assets/bg.jpg')"
       },
     }
   },
