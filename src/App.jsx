@@ -14,7 +14,9 @@ const App = () => {
           <About /> 
           <Features />
           <Testimonials /> 
-          <Contact /> 
+          <div className=" bg-contact-pattern bg-center bg-cover bg-no-repeat">
+            <Contact />
+          </div>
           <Footer />
         
       </div>
