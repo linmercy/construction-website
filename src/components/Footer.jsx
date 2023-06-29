@@ -51,7 +51,7 @@ const Footer = () => {
             </h1>
 
             <p>
-              18 office park building 20th floor unit e. <br /> JL street, 567, <br /> Nairobi Kenya, 49067 
+              18 office park building <br /> 20th floor unit e. <br /> JL street, 567, <br /> Nairobi Kenya, 49067 
             </p>
           </div>
 

@@ -22,6 +22,7 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('./src/assets/bg2.webp')",
+        "contact-pattern": "url('./src/assets/bg.jpg')"
       },
     }
   },

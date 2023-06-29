@@ -58,7 +58,7 @@ const Features = () => {
             return (
               <div className='block overflow-y-auto w-full'>
                 <div className=" flex">
-                  <img src={image} alt={title} className=' object-fill w-[300px] h-[400px] rounded-lg' />
+                  <img src={image} alt={title} className=' object-cover w-[300px] h-[400px] rounded-lg' />
                 </div>
 
                 <div className=" sm:text-[18px] text-[14px] text-white capitalise tracking-wider">
