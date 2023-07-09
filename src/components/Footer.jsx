@@ -6,7 +6,7 @@ import { IoLogoFacebook, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter, IoMdArr
 const Footer = () => {
   return (
     <section className='bg-primary w-full relative'>
-      <div className={`${styles.padding}   mx-auto max-w-7xl`}>
+      <div className={`${styles.padding} mx-auto max-w-7xl`}>
         <div className="flex justify-between max-md:block">
           <img src={logo} alt="logo" className='w-15 h-12 object-contain' />
           <div className="flex flex-inline">
@@ -75,7 +75,7 @@ const Footer = () => {
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#service">Services</a></li>
-              <li><a href="#projecs">Projects</a></li>
+              <li><a href="#projects">Projects</a></li>
             </ul>
           </div>
         </div>

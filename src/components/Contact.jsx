@@ -1,9 +1,8 @@
 import React from 'react'
 import { useState, useRef } from 'react'
-import { IoMdArrowDropupCircle } from 'react-icons/io'
+import { TiTick } from 'react-icons/ti'
 import { styles } from '../styles'
-import { mirror } from '../assets'
-
+import { SectionWrapper } from '../hoc'
 
 const Contact = () => {
   const formRef = useRef()
@@ -24,32 +23,36 @@ const Contact = () => {
       [name]: value,
     })
   }
+
+  const submitChange = () => {
+
+  }
   return (
     <section className={`${styles.padding} w-full relative image-gradient`} >
       <div className="mx-auto max-w-7xl ">
-        <div className="">
-          <div className="">
-            <p className=" text-5xl font-extrabold capitalize flex justify-center">
+        <div className={`${styles.paddingX}`}>
+          <div className={`${styles.sectionHeadText} flex items-center justify-center`}>
+            <p className="mb-5 capitalize">
               leading way in building & civil construction
             </p>
           </div>
 
-          <div className=" flex justify-center items-center mt-5 max-lg:block">
-            <ul className=' flex gap-10 justify-around'>
+          <div className="flex justify-center items-center mt-5 ">
+            <ul className=' flex gap-10 justify-between items-center max-lg:block '>
               <li className=' inline-flex gap-2'>
-                <IoMdArrowDropupCircle className='' />
+                <TiTick className='' />
                 <p>Professional Staff</p>
               </li>
               <li className='inline-flex gap-2'>
-                <IoMdArrowDropupCircle />
+                <TiTick />
                 <p>100% Satisfaction</p>
               </li>
               <li className='inline-flex gap-2'>
-                <IoMdArrowDropupCircle />
+                <TiTick />
                 <p>Accurate Testing</p>
               </li>
               <li className='inline-flex gap-2'>
-                <IoMdArrowDropupCircle />
+                <TiTick />
                 <p>Transparent Pricing</p>
               </li>
             </ul>
@@ -76,16 +79,16 @@ const Contact = () => {
                     className='bg-white w-[100%] py-4 px-6 placeholder:text-secondary max-xs:mb-2 text-black rounded-lg outline-none border-none font-medium' />
                   <select name="service" value={form.service} onChange={handleChange} id="" required 
                     className='w-[100%] bg-white py-4 px-8 placeholder:text-secondary max-xs:mb-2 text-black rounded-lg outline-none border-none font-medium'>
-                    <option value="">
+                    <option selected >
                       Select Your Service
                     </option>
-                    <option value="">
+                    <option value="architecture">
                       Architecture
                     </option>
-                    <option value="">
+                    <option value="building">
                       Building
                     </option>
-                    <option value="">
+                    <option value="planning">
                       Planning
                     </option>
                   </select>
@@ -137,4 +140,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default SectionWrapper (Contact, "contact")

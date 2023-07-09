@@ -2,13 +2,14 @@ import React from 'react'
 import { styles } from "../styles"
 import { IoIosArrowDroprightCircle, IoIosQuote } from "react-icons/io"
 import { apartment1, video } from '../assets'
+import SectionWrapper from '../hoc/SectionWrapper'
 
 const About = () => {
   return (
-    <section className="relative w-full  h-[100%] mx-auto bg-primary" id='2'>
-      <div className={`${styles.paddingX} mx-auto max-w-7xl pb-10`}>
+    <section className="relative w-full  h-[100%] mx-auto bg-primary">
+      <div className={`${styles.paddingX} mx-auto z-0 max-w-7xl pb-10`}>
         <div className="flex max-xs:block gap-6 justify-between w-full">
-          <div className='flex gap-10 py-10 max-xs:block max-xs:ml-20 max-xs:px-8 max-xs:mx-8 max-md:block max-lg:block'>
+          <div className='flex max-xs:items-center gap-10 py-10 max-xs:block max-xs:ml-20 max-md:block max-lg:block'>
             <div className="flex gap-1">
               <p className={`${styles.sectionHeadText} text-tertiary`}>25<small>+</small></p>
               <h1 className={`${styles.sectionSubText} mt-2  max-xs:mt-1`}>Years of <br /> experience</h1>
@@ -76,4 +77,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default SectionWrapper(About, "about");

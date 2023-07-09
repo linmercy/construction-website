@@ -1,10 +1,11 @@
 import React from 'react'
 import { styles } from '../styles'
 import { GrFormNextLink } from "react-icons/gr"
+import { SectionWrapper } from '../hoc'
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto img-gradient bg-hero-pattern max-xl:max-h-min`} id='1'>
+    <section className={`relative w-full h-screen mx-auto img-gradient bg-hero-pattern max-xl:max-h-min`}>
       <div className={`absolute inset-0 top-[120px] max-xs:top-[50px] max-lg:top-[80px] max-xl:top-[60px] 
         max-w-7xl mx-auto ${styles.paddingX} grid items-start gap-5 `}>
         <div className=''>
@@ -19,13 +20,13 @@ const Hero = () => {
           <div className=' flex  items-start mt-20 max-xs:mt-10 xs:mt-10'>
             <button type='button' className=' bg-tertiary text-[15px] text-black cursor-pointer flex font-medium 
               py-2 px-4 rounded-md'>
-              <a href="">
-                Our Services
+              <a href="#contact">
+                Contact Us
                 {/* <GrFormNextLink className='w-6 h-5 flex flex-row' /> */}
               </a>
             </button>
             <button className=' bg-white text-black cursor-pointer flex font-medium py-2 px-4 rounded-md mx-10'>
-              <a href="">
+              <a href="#projects">
                 View Projects
               </a>
             </button>
@@ -36,4 +37,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default SectionWrapper(Hero, "home")
